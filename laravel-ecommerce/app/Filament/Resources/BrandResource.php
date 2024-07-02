@@ -73,7 +73,7 @@ class BrandResource extends Resource
                 Tables\Columns\TextColumn::make('slug')
                     ->searchable(),
 
-                Tables\Columns\IconColumn::make('is_acive')
+                Tables\Columns\IconColumn::make('is_active')
                     ->boolean(),
 
                 Tables\Columns\TextColumn::make('created_at')
